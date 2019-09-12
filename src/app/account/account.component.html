@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+         <h5>{{account.name}}</h5>
+         <hr>
+         <p>this account is {{account.status}}</p>
+         <button btn btn-detault (click)="onSetTo('active')"> set to 'active'</button>
+         <button btn btn-detault (click)="onSetTo('inactive')"> set to 'inactive'</button>
+         <button btn btn-detault (click)="onSetTo('unknown')"> set to 'unknown'</button>
+    
+        </div>
+      </div>
+</div>
